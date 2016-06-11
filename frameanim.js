@@ -11,4 +11,4 @@ var iface = {
       oneshot : PropTypes.bool
     },
 };
-module.exports = requireNativeComponent('RKFrameAnimView',iface);
+module.exports = requireNativeComponent('FrameAnimView',iface);

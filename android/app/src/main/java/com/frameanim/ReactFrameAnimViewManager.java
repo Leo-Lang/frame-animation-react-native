@@ -8,12 +8,13 @@ import android.widget.LinearLayout;
 import com.facebook.react.uimanager.SimpleViewManager;
 import com.facebook.react.uimanager.ThemedReactContext;
 import com.facebook.react.uimanager.annotations.ReactProp;
+import com.frameanim.util.ResourceUtil;
 
 /**
  * Created by langneng on 6/8/16.
  */
-public class RKReactFrameAnimViewManager extends SimpleViewManager<FrameAnimView>{
-    private static final String REACT_CLASS = "RKFrameAnimView";
+public class ReactFrameAnimViewManager extends SimpleViewManager<FrameAnimView>{
+    private static final String REACT_CLASS = "FrameAnimView";
     private static final String ACTION_FRAME_ANIM_START = "start";
     private static final String ACTION_FRAME_ANIM_STOP = "stop";
     private static final String TAG = "RKFrameAnimView";
@@ -45,7 +46,7 @@ public class RKReactFrameAnimViewManager extends SimpleViewManager<FrameAnimView
     public void frameAnimControl(FrameAnimView frameAnimView,String action){
         Log.d(TAG, "langneng action:"+action +" frameAnimFile:"+mFrameAnimFile+" oneshot:"+mOneshot);
         if(ACTION_FRAME_ANIM_START.equals(action)){
-            Log.d(TAG,"langneng image resource:"+ResourceUtil.getDrawableId(mReactContext,mFrameAnimFile));
+            Log.d(TAG,"langneng image resource:"+ ResourceUtil.getDrawableId(mReactContext, mFrameAnimFile));
             frameAnimView.setImageResource(ResourceUtil.getDrawableId(mReactContext,mFrameAnimFile));
             animationDrawable = (AnimationDrawable)frameAnimView.getDrawable();
             animationDrawable.setOneShot(mOneshot);

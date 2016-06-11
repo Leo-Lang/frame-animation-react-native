@@ -1,4 +1,4 @@
-package com.frameanim;
+package com.frameanim.util;
 
 import android.content.Context;
 

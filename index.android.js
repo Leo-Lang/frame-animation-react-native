@@ -13,7 +13,7 @@ import {
 } from 'react-native';
 
 
- var RKframeanim = require('./rkframeanim');
+ var RKframeanim = require('./frameanim');
 var frameindex = 47;
 class frameanim extends Component {
   constructor(props){

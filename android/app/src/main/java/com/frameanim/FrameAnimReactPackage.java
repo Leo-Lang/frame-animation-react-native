@@ -16,8 +16,8 @@ import java.util.List;
 /**
  * Created by langneng on 4/14/16.
  */
-public class RKReactPackage implements ReactPackage {
-    private static final String TAG = "RKReactPackage";
+public class FrameAnimReactPackage implements ReactPackage {
+    private static final String TAG = "FrameAnimReactPackage";
 
     @Override
     public List<NativeModule> createNativeModules(ReactApplicationContext reactContext) {
@@ -36,6 +36,6 @@ public class RKReactPackage implements ReactPackage {
         Log.d(TAG, "langneng createViewManagers");
 
         return Arrays.<ViewManager>asList(
-                new RKReactFrameAnimViewManager());
+                new ReactFrameAnimViewManager());
     }
 }
