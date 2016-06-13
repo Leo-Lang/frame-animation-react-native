@@ -1,3 +1,3 @@
 rootProject.name = 'frameanim'
 
-include ':app'
+include ':app', ':frame-animation-react-native'

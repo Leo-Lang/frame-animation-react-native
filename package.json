@@ -1,12 +1,25 @@
 {
   "name": "frameanim",
-  "version": "0.0.1",
-  "private": true,
+  "version": "0.0.4",
+  "private": false,
   "scripts": {
     "start": "node node_modules/react-native/local-cli/cli.js start"
   },
   "dependencies": {
     "react": "15.0.2",
     "react-native": "^0.26.3"
-  }
+  },
+  "description": "",
+  "main": "frameanim.js",
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Leo-Lang/frame-animation-react-native.git"
+  },
+  "author": "leolang",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Leo-Lang/frame-animation-react-native/issues"
+  },
+  "homepage": "https://github.com/Leo-Lang/frame-animation-react-native"
 }
