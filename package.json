@@ -1,15 +1,13 @@
 {
   "name": "frame-animation-react-native",
-  "version": "0.0.6",
+  "version": "0.0.8",
   "private": false,
   "scripts": {
     "start": "node node_modules/react-native/local-cli/cli.js start"
   },
   "dependencies": {
-    "react": "15.0.2",
-    "react-native": "^0.26.3"
   },
-  "description": "",
+  "description": "## Installation",
   "main": "frameanim.js",
   "devDependencies": {},
   "repository": {
