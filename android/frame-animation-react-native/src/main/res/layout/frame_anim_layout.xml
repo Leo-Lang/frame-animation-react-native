@@ -4,7 +4,7 @@
     android:background="@android:color/black"
     android:gravity="center"
     android:layout_height="match_parent">
-    <com.frameanim.FrameAnimView
+    <com.leolang.frame_animation_react_native.FrameAnimView
         android:id="@+id/frame_anim_view"
         android:layout_width="480px"
         android:layout_height="480px"

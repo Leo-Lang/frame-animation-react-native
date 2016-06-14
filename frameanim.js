@@ -3,7 +3,7 @@ import { PropTypes } from 'react';
 import { requireNativeComponent, View } from 'react-native';
 
 var iface = {
-    name:'RKframeanim',
+    name:'frameanim',
     propTypes:{
       ...View.propTypes,
       action : PropTypes.string,
