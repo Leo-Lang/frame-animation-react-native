@@ -3,7 +3,7 @@
 ## Installation
 
 ```
-npm install frame-animation-react-native
+npm i --save frame-animation-react-native
 ```
 
 **on Android:**
@@ -21,7 +21,7 @@ project(':RNFA').projectDir = file('../node_modules/frame-animation-react-native
 compile project(':RNFA')
 ```
 
-3. in your `MainActivity` (or equivalent) the RNGLPackage needs to be added. Add the import at the top:
+3. in your `MainActivity` (or equivalent) the FrameAnimReactPackage needs to be added. Add the import at the top:
 
 ```
 import com.leolang.frame_animation_react_native.FrameAnimReactPackage;
@@ -38,4 +38,19 @@ protected List<ReactPackage> getPackages() {
 	new FrameAnimReactPackage()
   );
 }
+
+```
+## Usage
+###js
+
+```
+var FrameAnim = require('./node_modules/frame-animation-react-native/frameanim');
+
+
+```
+
+```
+<FrameAnim style={{width:640,height:480}} action = 'start' frameAnimFile = 'hotel_tts_frame' oneshot = {false}></FrameAnim>
+
+
 ```
