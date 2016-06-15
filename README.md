@@ -56,4 +56,4 @@ var FrameAnim = require('./node_modules/frame-animation-react-native/frameanim')
 ```
 ###android
 
-![](https://github.com/Leo-Lang/frame-animation-react-native/raw/master/docs/usage)
+![](https://github.com/Leo-Lang/frame-animation-react-native/raw/master/docs/usage.png)
