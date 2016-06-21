@@ -1,12 +1,11 @@
 {
   "name": "frame-animation-react-native",
-  "version": "0.0.8",
+  "version": "0.0.9",
   "private": false,
   "scripts": {
     "start": "node node_modules/react-native/local-cli/cli.js start"
   },
-  "dependencies": {
-  },
+  "dependencies": {},
   "description": "## Installation",
   "main": "frameanim.js",
   "devDependencies": {},
@@ -19,5 +18,8 @@
   "bugs": {
     "url": "https://github.com/Leo-Lang/frame-animation-react-native/issues"
   },
-  "homepage": "https://github.com/Leo-Lang/frame-animation-react-native"
+  "homepage": "https://github.com/Leo-Lang/frame-animation-react-native",
+  "directories": {
+    "doc": "docs"
+  }
 }
