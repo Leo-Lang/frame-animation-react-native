@@ -18,7 +18,7 @@ import java.util.List;
  * Created by langneng on 6/21/16.
  */
 public class MainActivity extends ReactActivity{
-    private static final String MAIN_REACT_CLASS = "frameanimtest";
+    private static final String MAIN_REACT_CLASS = "frameanim";
 
     @Override
     protected String getMainComponentName() {
@@ -40,9 +40,9 @@ public class MainActivity extends ReactActivity{
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
+        //set the server ip & port
         SharedPreferences preferences = PreferenceManager.getDefaultSharedPreferences(getApplicationContext());
         preferences.edit().putString("debug_http_host", "192.168.100.69:8081").apply();
-        Log.d("langneng","frameanim onCreate");
         super.onCreate(savedInstanceState);
     }
 }
