@@ -68,9 +68,8 @@ var FrameAnim = require('./node_modules/frame-animation-react-native/frameanim')
 ```
 在MainActivity中修改为你的server ip和端口
 
-![](https://github.com/Leo-Lang/frame-animation-react-native/raw/master/docs/usage3.png)
-
 ```
+![](https://github.com/Leo-Lang/frame-animation-react-native/raw/master/docs/usage3.png)
 
 
 
