@@ -1,3 +1,4 @@
 rootProject.name = 'frameanim'
 
-include ':app', ':frame-animation-react-native'
+include ':app',':frame-animation-react-native'
+//project(':frame-animation-react-native').projectDir = file('../node_modules/frame-animation-react-native/android/frame-animation-react-native')

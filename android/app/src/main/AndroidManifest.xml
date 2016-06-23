@@ -1,4 +1,5 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
     package="com.frameanim"
     android:versionCode="1"
     android:versionName="1.0">
@@ -7,8 +8,10 @@
     <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW"/>
 
     <uses-sdk
-        android:minSdkVersion="16"
-        android:targetSdkVersion="22" />
+        android:minSdkVersion="19"
+        android:targetSdkVersion="22"
+        tools:overrideLibrary="com.leolang.frame_animation_react_native"/>
+
 
     <application
       android:allowBackup="true"

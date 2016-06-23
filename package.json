@@ -1,14 +1,19 @@
 {
   "name": "frame-animation-react-native",
-  "version": "0.0.9",
+  "version": "0.1.0",
   "private": false,
   "scripts": {
     "start": "node node_modules/react-native/local-cli/cli.js start"
   },
-  "dependencies": {},
+  "dependencies": {
+    "react": "^0.14.8",
+    "react-native": "^0.22.2"
+  },
   "description": "## Installation",
   "main": "frameanim.js",
-  "devDependencies": {},
+  "devDependencies": {
+
+  },
   "repository": {
     "type": "git",
     "url": "https://github.com/Leo-Lang/frame-animation-react-native.git"

@@ -1,8 +1,10 @@
 apply plugin: 'com.android.library'
 
 android {
+//    publishNonDefault true
     compileSdkVersion 23
     buildToolsVersion "23.0.3"
+
 
     defaultConfig {
         minSdkVersion 19
