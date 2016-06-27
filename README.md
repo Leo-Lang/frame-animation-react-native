@@ -71,6 +71,13 @@ var FrameAnim = require('./node_modules/frame-animation-react-native/frameanim')
 ```
 ![](https://github.com/Leo-Lang/frame-animation-react-native/raw/master/docs/usage3.png)
 
+```
+frame animation source preload
+
+```
+![](https://github.com/Leo-Lang/frame-animation-react-native/raw/master/docs/usage4.png)
+
+
 
 
 ##sample
