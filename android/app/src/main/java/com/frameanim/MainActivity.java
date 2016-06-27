@@ -10,6 +10,7 @@ import com.facebook.react.ReactActivity;
 import com.facebook.react.ReactPackage;
 import com.facebook.react.shell.MainReactPackage;
 import com.leolang.frame_animation_react_native.FrameAnimReactPackage;
+import com.leolang.frame_animation_react_native.ReactFrameAnimViewManager;
 
 import java.util.Arrays;
 import java.util.List;
@@ -43,6 +44,8 @@ public class MainActivity extends ReactActivity{
         //set the server ip & port
         SharedPreferences preferences = PreferenceManager.getDefaultSharedPreferences(getApplicationContext());
         preferences.edit().putString("debug_http_host", "192.168.100.69:8081").apply();
+
+        ReactFrameAnimViewManager.frameAnimInit(this,"hotel_tts_frame");
         super.onCreate(savedInstanceState);
     }
 }
