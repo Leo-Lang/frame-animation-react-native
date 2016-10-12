@@ -43,8 +43,8 @@ public class MainActivity extends ReactActivity{
     protected void onCreate(Bundle savedInstanceState) {
         //set the server ip & port
         SharedPreferences preferences = PreferenceManager.getDefaultSharedPreferences(getApplicationContext());
-        preferences.edit().putString("debug_http_host", "192.168.100.69:8081").apply();
-
+        //preferences.edit().putString("debug_http_host", "192.168.100.69:8081").apply();
+        preferences.edit().putString("debug_http_host", "192.168.101.251:8081").apply();
         ReactFrameAnimViewManager.frameAnimInit(this,"hotel_tts_frame");
         super.onCreate(savedInstanceState);
     }
