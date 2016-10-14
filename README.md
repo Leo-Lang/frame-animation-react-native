@@ -1,9 +1,9 @@
-#frame-animation-react-native
+#rokid-frame-animation-rn
 
 ## Installation
 
 ```
-npm i --save frame-animation-react-native
+npm i --save rokid-frame-animation-rn
 ```
 
 **on Android:**
@@ -12,7 +12,7 @@ npm i --save frame-animation-react-native
 
 ```
 include ':RNFA'
-project(':RNFA').projectDir = file('../node_modules/frame-animation-react-native/android/frame-animation-react-native')
+project(':RNFA').projectDir = file('../node_modules/rokid-frame-animation-rn/android/frame-animation-react-native')
 ```
 
 ####2. `android/app/build.gradle`: Add in dependencies block.
@@ -44,7 +44,7 @@ protected List<ReactPackage> getPackages() {
 ###js
 
 ```
-var FrameAnim = require('./node_modules/frame-animation-react-native/frameanim');
+var FrameAnim = require('./node_modules/rokid-frame-animation-rn/frameanim');
 
 
 ```
@@ -60,22 +60,22 @@ var FrameAnim = require('./node_modules/frame-animation-react-native/frameanim')
 ```
 ###android
 
-![](https://github.com/Leo-Lang/frame-animation-react-native/raw/master/docs/usage.png)
+![](https://github.com/Leo-Lang/frame-animation-react-native/raw/rokid-frame-animation-rn/docs/usage.png)
 
-![](https://github.com/Leo-Lang/frame-animation-react-native/raw/master/docs/usage2.png)
+![](https://github.com/Leo-Lang/frame-animation-react-native/raw/rokid-frame-animation-rn/docs/usage2.png)
 
 
 ```
 在MainActivity中修改为你的server ip和端口
 
 ```
-![](https://github.com/Leo-Lang/frame-animation-react-native/raw/master/docs/usage3.png)
+![](https://github.com/Leo-Lang/frame-animation-react-native/raw/rokid-frame-animation-rn/docs/usage3.png)
 
 ```
 frame animation source preload
 
 ```
-![](https://github.com/Leo-Lang/frame-animation-react-native/raw/master/docs/usage4.png)
+![](https://github.com/Leo-Lang/frame-animation-react-native/raw/rokid-frame-animation-rn/docs/usage4.png)
 
 
 
