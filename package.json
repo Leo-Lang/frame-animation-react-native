@@ -1,6 +1,6 @@
 {
-  "name": "frame-animation-react-native",
-  "version": "0.3.0",
+  "name": "rokid-frame-animation-rn",
+  "version": "0.0.1",
   "private": false,
   "scripts": {
     "start": "node node_modules/react-native/local-cli/cli.js start"
@@ -14,7 +14,7 @@
   "devDependencies": {},
   "repository": {
     "type": "git",
-    "url": "https://github.com/Leo-Lang/frame-animation-react-native.git"
+    "url": "git+https://github.com/Leo-Lang/frame-animation-react-native.git"
   },
   "author": "leolang",
   "license": "ISC",
@@ -24,5 +24,9 @@
   "homepage": "https://github.com/Leo-Lang/frame-animation-react-native",
   "directories": {
     "doc": "docs"
-  }
+  },
+  "keywords": [
+    "frame",
+    "animation"
+  ]
 }
